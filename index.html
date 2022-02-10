@@ -9,25 +9,32 @@
 </head>
 <body>
     <main>
+        <script>
+            function cambiarTexto() {
+
+
+        </script>
         <form action="web.php" method="get">
             <h1>Acceso al area de clientes</h1>
+            
+            <p><input type="checkbox" id="dni">DNI o Tarjeta de residencia</p>
+            <p><input type="checkbox" id="pasaporte">Pasaporte</p>
 
             <label for="documento">Numero del documento</label> 
             
             <br>
             <input  id="documento" type="text" placeholder="DNI o Tarjeta de residencia">
-
            
-            <div>
+            <div class="campo-fecha">
                 <label>Fecha de nacimiento</label>
                 <br>
-                <input type="number" class="fecha" id="dia" placeholder="DD">
+                <input type="text" class="fecha" id="dia" placeholder="DD">
                 
-                <input type="number" class="fecha" id="mes" placeholder="MM">
+                <input type="text" class="fecha" id="mes" placeholder="MM">
 
-                <input type="number" class="fecha" id="ano" placeholder="AAAA">
+                <input type="text" class="fecha" id="ano" placeholder="AAAA">
             </div>
-            <p><input type="checkbox">Recordar</p>
+            <p><input id="Recordar" type="checkbox">Recordar</p>
 
             <input  id="submit"type="submit" value="Entrar">
 
