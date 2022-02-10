@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área clientes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <form action="web.php" method="get">
+            <h1>Acceso al area de clientes</h1>
+
+            <label for="documento">Numero del documento</label> 
+            
+            <br>
+            <input  id="documento" type="text" placeholder="DNI o Tarjeta de residencia">
+
+           
+            <div>
+                <label>Fecha de nacimiento</label>
+                <br>
+                <input type="number" class="fecha" id="dia" placeholder="DD">
+                
+                <input type="number" class="fecha" id="mes" placeholder="MM">
+
+                <input type="number" class="fecha" id="ano" placeholder="AAAA">
+            </div>
+            <p><input type="checkbox">Recordar</p>
+
+            <input  id="submit"type="submit" value="Entrar">
+
+        </form>
+    </main>
+</body>
+</html>
