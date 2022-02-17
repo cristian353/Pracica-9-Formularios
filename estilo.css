@@ -81,7 +81,7 @@ form.pizza {
     padding: 15em;
     /* padding-right: 4em; */
     background-color: white;
-    width: fit-content;
+        max-width: fit-content;
     height: fit-content;
     position: relative;
     left: 30%;
