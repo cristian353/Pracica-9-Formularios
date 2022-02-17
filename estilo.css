@@ -2,11 +2,12 @@ html, body {
     margin: 0;
     font-family: Verdana;
     background-color: #817b7b3f;
+    font-family: Verdana;
 }
 
 form {
-    position: absolute;
-    left: 35%;
+    position: relative;
+    left: 40%;
     font-family: Verdana;
     color:  rgb(78, 75, 75);
     background-color: white;
@@ -17,6 +18,7 @@ form {
 .titulo {
     font-size: 20px;
     color: black;
+    text-align: center;
 }
 
 .text-color-black {
@@ -49,3 +51,61 @@ a {
     width: 80%;
     border-radius: 10px;
 }
+
+section.contenedor {
+    margin: 20px;
+   
+}
+
+section.pizza {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+
+div.header-pizza {
+    box-shadow: 0px 3px 2px whitesmoke;
+    padding: 1em;
+}
+
+img.logo {
+    height: 33px;
+    width: 155px;
+    position: relative;
+    left: 10%;
+}
+
+form.pizza {
+    box-shadow: 0px 3px 3px grey;
+    padding: 4em;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.campo-segundo {
+    border: 1px solid #dfdfe3;
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.boton-segundo {
+    background-color: green;
+    color: white;
+    padding: 1em;
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+
+
+
+
+
