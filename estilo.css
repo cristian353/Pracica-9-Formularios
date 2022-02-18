@@ -12,6 +12,7 @@ form {
     color:  rgb(78, 75, 75);
     background-color: white;
     width: fit-content;
+    height: fit-content;
     padding: 30px;
 }
 
@@ -81,7 +82,7 @@ form.pizza {
     padding: 15em;
     /* padding-right: 4em; */
     background-color: white;
-        max-width: fit-content;
+    width: fit-content;
     height: fit-content;
     position: relative;
     left: 30%;
